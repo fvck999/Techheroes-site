@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <section id="navigationBar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="imgs/logo.png" alt="" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="FAQ.html">FAQ</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Log In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="container d-flex justify-content-center my-5">
+        <img src="imgs/faqillustration.png" style="width: 60%;" alt="">
+    </section>
+
+    <section class="container mb-5">
+        <form action="">
+            <div id="searchCenter"
+                class="p-1 bg-light rounded rounded-pill shadow-sm d-flex justifty-content-center w-50 mt-4">
+                <div class="input-group justify-content-around center ">
+                    <input type="search" placeholder="Describe your issue..." aria-describedby="button-addon1"
+                        class="form-control border-0 bg-light">
+                    <div class="input-group-append">
+                        <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <section class="container pt-2 pb-5">
+        <div class="row">
+            <div class="col-10 mx-auto">
+                <div class="accordion" id="faqExample">
+                    <div class="card">
+                        <div class="card-header p-2" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" style="width: 100%; text-align: left;" type="button"
+                                    data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    How do I create an event?
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#faqExample">
+                            <div class="card-body">
+                                <b>Answer:</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim quidem
+                                vitae dignissimos ipsa veniam nobis optio velit quam corporis eum!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header p-2" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" style="width: 100%; text-align: left;"
+                                    type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    How do I register?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident repellendus culpa
+                                laborum officia libero. Dolorum in amet harum modi exercitationem autem impedit ab
+                                officiis, incidunt illum, dicta quasi tempora veniam.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header p-2" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" style="width: 100%; text-align: left;"
+                                    type="button" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Working with us.
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#faqExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nostrum debitis animi sunt
+                                ducimus nihil in officia totam suscipit eum!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header p-2" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" style="width: 100%; text-align: left;"
+                                    type="button" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Charity events and donations.
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#faqExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur iusto repellendus
+                                dolore deleniti cumque commodi aliquam ullam cum, esse soluta?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--/row-->
+    </section>
+    <!--container-->
+
+    <section class="" id="footerInfo">
+        <footer id="footer" class="footer-1">
+            <div class="main-footer widgets-dark typo-light bg-light">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="widget subscribe no-box">
+                                <h5 class="widget-title">sfindr.<span></span></h5>
+                                <p>All your sport events in one place!</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="widget no-box">
+                                <h5 class="widget-title">Quick Links<span></span></h5>
+                                <ul class="thumbnail-widget">
+                                    <li>
+                                        <div class="thumb-content"><a href="#.">Get Started</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="thumb-content"><a href="playerprofile.html">Top Ranked Sportist</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="thumb-content"><a href="#.">Success Stories</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="thumb-content"><a href="#.">Event/Tickets</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="thumb-content"><a href="#.">News</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="thumb-content"><a href="#.">Lifestyle</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="thumb-content"><a href="about.html">About</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="widget no-box">
+                                <h5 class="widget-title">Get Started<span></span></h5>
+                                <p>Get access to your full Training and Marketing Suite.</p>
+                                <a class="btn btn-dark" href="register.html" target="_blank">Register Now</a>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+
+                            <div class="widget no-box">
+                                <h5 class="widget-title">Contact Us<span></span></h5>
+
+                                <p><a href="mailto:info@domain.com" title="glorythemes">sfindrteam@gmail.com</a></p>
+                                <!-- <ul class="social-footer2">
+                                    <li class=""><a title="youtube" target="_blank" href="https://www.youtube.com/"><img
+                                                alt="youtube" width="30" height="30"
+                                                src=""></a>
+                                    </li>
+                                    <li class=""><a href="https://www.facebook.com/" target="_blank"
+                                            title="Facebook"><img alt="Facebook" width="30" height="30"
+                                                src=""></a>
+                                    </li>
+                                    <li class=""><a href="https://twitter.com" target="_blank" title="Twitter"><img
+                                                alt="Twitter" width="30" height="30"
+                                                src=""></a>
+                                    </li>
+                                    <li class=""><a title="instagram" target="_blank"
+                                            href=""><img alt="instagram" width="30"
+                                                height="30"
+                                                src=""></a>
+                                    </li>
+                                </ul> -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p>Copyright sfindr. © 2020. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
